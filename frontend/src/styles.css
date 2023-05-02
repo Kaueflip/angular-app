@@ -13,3 +13,7 @@ body {
   border-bottom: solid 1px rgb(173, 21, 21);
   padding: 2em;
 }
+
+h1 {
+  margin-bottom: 1.5rem;
+}
