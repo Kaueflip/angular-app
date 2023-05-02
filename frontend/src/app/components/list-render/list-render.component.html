@@ -1,0 +1,16 @@
+<div class="class">
+  <h1>Looping class</h1>
+  <h2>Animals:</h2>
+  <ul>
+    <li *ngFor="let animal of animals">
+      <div class="card-tile">
+        <h3>{{ animal.name }}</h3>
+        <span>{{ animal.type }}</span>
+      </div>
+      <p>{{ animal.description }}</p>
+
+      <button (click)="showAge(animal)">Mostrar idade</button>
+    </li>
+  </ul>
+  <p>{{ animalDetails }}</p>
+</div>
