@@ -72,3 +72,8 @@ button:hover {
   color: #fafafa;
   transition: all 300ms ease;
 }
+
+.btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
