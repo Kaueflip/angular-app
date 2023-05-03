@@ -16,12 +16,12 @@ export class ListRenderComponent {
 
   animalDetails = '';
   showAge(animal: Animal): void {
-    this.animalDetails = `O ${animal.name} tem ${animal.age} anos.`;
+    this.animalDetails = `${animal.name} tem ${animal.age} anos.`;
   }
 
   removeAnimal(animal: Animal) {
-    //console.log('Removendo animal');
-    this.animals = this.listService.remove(this.animals, animal);
+    this.animals = this.animals.filter((a) => animal.name !== a.name);
+    this.listService.remove(animal.id).subscribe();
   }
 
   getAnimals(): void {

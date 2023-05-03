@@ -1,7 +1,6 @@
 .class {
   width: 100%;
   background-color: #f0f0f0;
-  overflow: scroll;
 }
 
 h2,
@@ -33,16 +32,18 @@ span {
 ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 1140px;
+  width: 100%;
   padding: 1.5rem;
   border-radius: 1rem;
 }
 ul li {
   margin-right: 1.5rem;
   padding: 1.5rem;
-  width: 100%;
+  width: 450px;
+  margin: 1rem;
   border-radius: 1rem;
   background-color: #fafafa;
   transition: all 300ms ease;
