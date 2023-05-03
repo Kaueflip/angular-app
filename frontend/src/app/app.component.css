@@ -1,0 +1,14 @@
+header {
+  border-bottom: solid 1px #cbcbcb;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+nav a {
+  margin: auto 0.25rem;
+  text-decoration: none;
+  color: #000;
+  background-color: #e5e5e5;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
