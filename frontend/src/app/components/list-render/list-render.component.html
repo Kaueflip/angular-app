@@ -4,7 +4,9 @@
   <ul>
     <li *ngFor="let animal of animals">
       <div class="card-tile">
-        <h3>{{ animal.name }}</h3>
+        <h3>
+          <a routerLink="/list/{{ animal.id }}"> {{ animal.name }} </a>
+        </h3>
         <span>{{ animal.type }}</span>
       </div>
       <p>{{ animal.description }}</p>

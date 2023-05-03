@@ -1,6 +1,7 @@
 {
   "animals": [
       {
+        "id": "1",
         "name": "Eva",
         "type": "Cat",
         "age": 7,
@@ -8,6 +9,7 @@
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, deserunt."
       },
       {
+        "id": "2",
         "name": "Chico",
         "type": "Cat",
         "age": 6,
@@ -15,6 +17,7 @@
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, deserunt."
       },
       {
+        "id": "3",
         "name": "Bob",
         "type": "Dog",
         "age": 1,
@@ -22,6 +25,7 @@
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, deserunt."
       },
       {
+        "id": "4",
         "name": "Pé de Pano",
         "type": "Horse",
         "age": 9,
