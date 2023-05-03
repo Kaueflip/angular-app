@@ -1,8 +1,27 @@
 <div *ngIf="animal" class="class">
   <h1>Detalhes do Animal</h1>
-  <p>ID {{ animal.id }}</p>
-  <h2>{{ animal.name }}</h2>
-  <p>{{ animal.type }}</p>
-  <p>{{ animal.age }}</p>
-  <p>{{ animal.description }}</p>
+
+  <div class="item-card">
+    <div class="item-title">
+      <h2>{{ animal.name }}</h2>
+      <p>{{ animal.id }}</p>
+    </div>
+
+    <div class="item-info">
+      <ul>
+        <li>
+          Tipo:
+          <p>{{ animal.type }}</p>
+        </li>
+        <li>
+          Idade:
+          <p>{{ animal.age }} anos</p>
+        </li>
+        <li>
+          Descrição:
+          <p>{{ animal.description }}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
